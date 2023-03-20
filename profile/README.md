@@ -13,7 +13,18 @@ This is an Oregon State University Computer Science Capstone Project.
 - Faaiq Waqar
 - Kiernan Canavan
 
-## Project Purpose:
+## Project Purpose and Problem Statement
 The purpose of this project is to empower homeowners to make optimal use of their windows to cool and heat their homes, using sensors placed throughout their home.
 
 Annually, the cost of air conditioning and heating equipment rises in cost anywhere from 5% - 9%. Coupled with the growing costs of electricity and natural gas, in-house climate control can amass enormous utility bills. Effective use of the windows in one’s home can help, but knowing how best to use the windows in your home is a non-trivial problem.
+
+## Using the Project
+### Hardware requirements
+You must have at least one sensor module that can get temperature and humidity data and send that data over the network. When developing the project, we used [Arduino Nano RP2040 Connects](https://store.arduino.cc/products/arduino-nano-rp2040-connect) with [DHT11 Sensors](https://www.adafruit.com/product/386).
+
+To set up a sensor module, follow the instructions [here](https://github.com/sensor-climate-control/scc-sensor).
+
+### Software setup
+You can either use our cloud-hosted web server at [osuscc.azurewebsites.net](https://osuscc.azurewebsites.net) (recommended), or self-host a web server using the instructions [here](https://github.com/sensor-climate-control/scc-web).
+
+Additionally, our recommended configuration is for your sensors to directly communicate with the web server, but we also support a configuration with a local server that handles the web server communication ([setup instructions](https://github.com/sensor-climate-control/scc-local-server)).
