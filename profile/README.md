@@ -28,3 +28,14 @@ To set up a sensor module, follow the instructions [here](https://github.com/sen
 You can either use our cloud-hosted web server at [osuscc.azurewebsites.net](https://osuscc.azurewebsites.net) (recommended), or self-host a web server using the instructions [here](https://github.com/sensor-climate-control/scc-web).
 
 Additionally, our recommended configuration is for your sensors to directly communicate with the web server, but we also support a configuration with a local server that handles the web server communication ([setup instructions](https://github.com/sensor-climate-control/scc-local-server)).
+
+## Repositories and Documentation
+All documentation can be found in the respective repositories:
+- [Web Server](https://github.com/sensor-climate-control/scc-web)
+- [Sensors](https://github.com/sensor-climate-control/scc-sensor)
+- [Local Server](https://github.com/sensor-climate-control/scc-local-server)
+
+## Contact or Get Assistance
+If you have any difficulties setting up and running the project, please open a GitHub issue in the appropriate repository.
+
+If you want to contact us for any other reason, you can open a GitHub issue or [Start a GitHub discussion](https://github.com/orgs/sensor-climate-control/discussions/new/choose)
