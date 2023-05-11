@@ -1,5 +1,5 @@
 # Sensor System for Self-Driven In-Home Climate Control
-This is an Oregon State University Computer Science Capstone Project.
+This is an 2022-2023 Oregon State University Computer Science Capstone Project.
 
 ## Personnel:
 ### Students:
