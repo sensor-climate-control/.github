@@ -34,6 +34,7 @@ Additionally, our recommended configuration is for your sensors to directly comm
 ## Repositories and Documentation
 All documentation can be found in the respective repositories:
 - [Web Server](https://github.com/sensor-climate-control/scc-web)
+- [API Documentation](https://osuscc-api.zimmerman.dev/docs/)
 - [Sensors](https://github.com/sensor-climate-control/scc-sensor)
 - [Local Server](https://github.com/sensor-climate-control/scc-local-server)
 - [TextBelt (SMS API)](https://github.com/sensor-climate-control/textbelt)
