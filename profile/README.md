@@ -27,7 +27,7 @@ You must have at least one sensor module that can get temperature and humidity d
 To set up a sensor module, follow the instructions [here](https://github.com/sensor-climate-control/scc-sensor).
 
 ### Software setup
-You can either use our cloud-hosted web server at [osuscc.azurewebsites.net](https://osuscc.azurewebsites.net) (recommended), or self-host a web server using the instructions [here](https://github.com/sensor-climate-control/scc-web).
+You can either use our cloud-hosted web server at [osuscc.azurewebsites.net](https://osuscc.azurewebsites.net) (recommended), or self-host a web server using the instructions [here](https://github.com/sensor-climate-control/scc-web#self-hosting).
 
 Additionally, our recommended configuration is for your sensors to directly communicate with the web server, but we also support a configuration with a local server that handles the web server communication ([setup instructions](https://github.com/sensor-climate-control/scc-local-server)).
 
@@ -36,6 +36,7 @@ All documentation can be found in the respective repositories:
 - [Web Server](https://github.com/sensor-climate-control/scc-web)
 - [Sensors](https://github.com/sensor-climate-control/scc-sensor)
 - [Local Server](https://github.com/sensor-climate-control/scc-local-server)
+- [TextBelt (SMS API)](https://github.com/sensor-climate-control/textbelt)
 
 ## Contact or Get Assistance
 If you have any difficulties setting up and running the project, please open a GitHub issue in the appropriate repository.
