@@ -22,14 +22,14 @@ Compared to the competition, the benefits of using our project are that it is fr
 
 ## Using the Project
 ### Hardware requirements
-You must have at least one sensor module that can get temperature and humidity data and send that data over the network. When developing the project, we used an [Arduino Nano RP2040 Connect](https://store.arduino.cc/products/arduino-nano-rp2040-connect) with a [DHT11 Sensor](https://www.adafruit.com/product/386).
+You must have at least one sensor module that can get temperature and humidity data and send that data over the network. When developing the project, we used an [Arduino Nano RP2040 Connect](https://store.arduino.cc/products/arduino-nano-rp2040-connect) with a [DHT11 Sensor](https://www.adafruit.com/product/386). However, our project is compatible any system that can gather temperature and humidity data, then send that data over the network via an HTTP PUT request.
 
 To set up a sensor module, follow the instructions [here](https://github.com/sensor-climate-control/scc-sensor).
 
 ### Software setup
 You can either use our cloud-hosted web server at [osuscc.azurewebsites.net](https://osuscc.azurewebsites.net) (recommended), or self-host a web server using the instructions [here](https://github.com/sensor-climate-control/scc-web#self-hosting).
 
-Additionally, our recommended configuration is for your sensors to directly communicate with the web server, but we also support a configuration with a local server that handles the web server communication ([setup instructions](https://github.com/sensor-climate-control/scc-local-server)).
+Additionally, our recommended configuration is for your sensors to directly communicate with the web server, but we also support a configuration with a local server that handles the web server communication, which can be run on a Raspberry Pi, laptop, server, etc. ([setup instructions](https://github.com/sensor-climate-control/scc-local-server)).
 
 ## Repositories and Documentation
 All documentation can be found in the respective repositories:
